@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section id="data" Class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+
+        <div class="container">
+            <table class="table text-light">
+                <thead class="thead-light">
+                    <tr class="text-warning">
+                        <th scope="col">Quality</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">{{ model_result }}</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+{% endblock %}

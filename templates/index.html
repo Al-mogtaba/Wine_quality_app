@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <section id="data" Class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            
+                <form action="#" method="post" class="form">
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Fixed Acidity</label>
+                        <input name="Fixed_Acidityta" class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Volatile Acidity</label>
+                        <input name="Volatile_Acidity" class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Citric Acid</label>
+                        <input name="Citric_Acid"  class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Residual Sugar</label>
+                        <input name="Residual_Sugar"  class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Chlorides</label>
+                        <input name="Chlorides"  class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Free Sulfur Dioxide</label>
+                        <input name="Free_Sulfur_Dioxide"  class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Total Sulfur Dioxide</label>
+                        <input name="Total_Sulfur_Dioxide"  class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Density</label>
+                        <input name="Density"  class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">PH</label>
+                        <input name="PH"  class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Sulphates</label>
+                        <input name="Sulphates"  class="slider  " value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <div class="slidecontainer">
+                        <label for="test" class="form-lable">Alcohol</label>
+                        <input name="Alcohol"  class="slider" value="0" type="range" class="form-range"
+                            oninput="this.nextElementSibling.value = this.value" min="0" max="100" , step="0.01">
+                        <output>0</output>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Show Result</button>
+                </form>
+            
+            </div>
+    </section>
+
+{% endblock %}
